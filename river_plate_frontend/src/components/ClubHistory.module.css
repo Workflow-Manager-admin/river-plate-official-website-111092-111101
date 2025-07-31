@@ -1,0 +1,27 @@
+.clubHistory {
+  padding: 3vw 13vw 2vw 13vw;
+  color: #101010;
+  text-align: left;
+  background: #f8f9fa;
+  border-bottom: 3px solid #FF0000;
+}
+.clubHistory h2 {
+  color: #FF0000;
+  font-size: 2.1rem;
+  margin-bottom: 0.7em;
+  font-weight: bold;
+}
+.clubHistory p {
+  font-size: 1.13rem;
+  margin-bottom: 0.85em;
+  line-height: 1.7;
+}
+
+@media (max-width: 770px) {
+  .clubHistory {
+    padding: 5vw 3vw 2vw 3vw;
+  }
+  .clubHistory h2 {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,78 @@
+.contactSection {
+  padding: 3vw 13vw 3vw 13vw;
+  background: #f8f9fa;
+}
+.contactSection h2 {
+  color: #FF0000;
+  margin-bottom: 1em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.form {
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 13px rgba(0,0,0,0.07);
+  padding: 2em 1.5em;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+}
+label {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.15em;
+  color: #222;
+}
+input, textarea {
+  padding: 0.7em 0.9em;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1.4px solid #EEE;
+  outline: none;
+  background: #f6f8fa;
+  color: #101010;
+  margin-bottom: 0.3em;
+  transition: border 0.17s;
+}
+input:focus, textarea:focus {
+  border-color: #FF0000;
+}
+
+.submitBtn {
+  background: #FF0000;
+  color: #fff;
+  padding: 0.8em 1.9em;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.07em;
+  font-weight: 600;
+  margin-top: 0.3em;
+  cursor: pointer;
+  transition: background 0.17s, color 0.13s;
+}
+.submitBtn:hover, .submitBtn:active {
+  background: #000;
+  color: #FFF;
+}
+.successMsg {
+  color: #37b617;
+  margin-top: 0.6em;
+  font-size: 0.99rem;
+}
+
+@media (max-width: 750px) {
+  .contactSection {
+    padding: 5vw 2vw 3vw 2vw;
+  }
+  .form {
+    padding: 1.12em 0.43em;
+  }
+}

@@ -1,82 +1,48 @@
-# Lightweight React Template for KAVIA
+# River Plate Official Website - React Frontend
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+This is a full-featured, modern, responsive React website for Club Atlético River Plate.
+It uses React Router, modular components, CSS Modules for styling, and maintains official River Plate branding throughout (red, white, black).
 
 ## Features
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+- Responsive home page with hero image and welcome message
+- Club history section
+- News & Updates listing
+- Current squad: player photos and bios (placeholder assets included)
+- Match schedule overview
+- Functional contact form (validates and displays local success message)
+- Clean, minimal modern layout
+- Fully mobile responsive
+- Modular components and CSS Modules
+- Client-side navigation with React Router
+
+## Project Structure
+
+See the `/src` folder for:
+
+- `/components`: UI blocks (NavBar, Hero, ClubHistory, News, Squad, Schedule, ContactForm, Footer)
+- `/pages`: Route pages for each section
+- `/assets`: Placeholder images (replace with actual club photos/logos as needed)
+- `clubTheme.js`: Brand color palette (official River Plate colors) for consistency
 
 ## Getting Started
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Install dependencies with:
+   ```
+   npm install
+   ```
+2. Start the dev server with:
+   ```
+   npm start
+   ```
+   Then go to [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Customization
 
-### Colors
+To customize assets, add actual club hero images to `/src/assets/river-hero.jpg` and player photos at `/src/assets/player-placeholder.png`.
 
-The main brand colors are defined as CSS variables in `src/App.css`:
+All color, layout, and content blocks can be updated easily by editing their respective files in `/src/components` or `/src/pages`.
 
-```css
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-}
-```
+## License
 
-### Components
-
-This template uses pure HTML/CSS components instead of a UI framework. You can find component styles in `src/App.css`. 
-
-Common components include:
-- Buttons (`.btn`, `.btn-large`)
-- Container (`.container`)
-- Navigation (`.navbar`)
-- Typography (`.title`, `.subtitle`, `.description`)
-
-## Learn More
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open source project template. See River Plate club website for official information: [www.cariverplate.com.ar](https://www.cariverplate.com.ar/)

@@ -1,0 +1,38 @@
+.scheduleSection {
+  padding: 3vw 13vw 2vw 13vw;
+  background: #fff;
+  border-bottom: 2.5px solid #ff0000;
+}
+.scheduleSection h2 {
+  color: #FF0000;
+  margin-bottom: 1em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.matchTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.matchTable th,
+.matchTable td {
+  border: 1.2px solid #eee;
+  padding: 0.7em 0.7em;
+  font-size: 1.02em;
+  text-align: center;
+}
+.matchTable th {
+  background: #F9F8F8;
+  color: #d00;
+}
+.matchTable tr:nth-child(even) {
+  background: #f8f9fa;
+}
+@media (max-width: 900px) {
+  .scheduleSection {
+    padding: 5vw 2vw 2vw 2vw;
+  }
+  .matchTable th, .matchTable td {
+    padding: 0.36em 0.3em;
+    font-size: 0.94em;
+  }
+}

@@ -1,0 +1,62 @@
+.squadSection {
+  padding: 3vw 13vw 2vw 13vw;
+  background: #f8f9fa;
+  border-bottom: 3px solid #ff0000;
+  text-align: left;
+}
+.squadSection h2 {
+  color: #FF0000;
+  margin-bottom: 1em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.squadGrid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.playerCard {
+  background: #fff;
+  border-radius: 10px;
+  border: 1.2px solid #EEE;
+  padding: 1.2em 1em 1.25em 1em;
+  margin-bottom: 1.3em;
+  min-width: 180px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.playerImg {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5px solid #FF0000;
+  margin-bottom: 0.45em;
+}
+.position {
+  font-size: 0.98em;
+  color: #FF0000;
+  margin-bottom: 0.22em;
+  font-weight: 500;
+}
+.bio {
+  font-size: 0.95em;
+  color: #222;
+}
+@media (max-width: 900px) {
+  .squadGrid {
+    flex-direction: column;
+  }
+  .playerCard {
+    width: 97vw;
+    max-width: 400px;
+    margin: 0 auto 1.3em auto;
+  }
+  .squadSection {
+    padding: 5vw 2vw 2vw 2vw;
+  }
+}
